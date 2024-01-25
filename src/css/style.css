@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: azure;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 0.01rem black;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: darkcyan;
+    border: 0.01rem solid black;
+    position: fixed;
+    top: 0;
+    padding: 0.02rem;
+}
+
+nav .nav-box {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    margin: 0.3rem;
+    background-color: darkcyan;
+    width: 90rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    justify-content: center;
+    background-color: darkcyan;
+}
+
+.logo .logo-img {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgba(245, 245, 245, 0.334);
+    border-radius: 3rem;
+    padding: 0.05rem;
+}
+
+.logo .button-text-logo {
+    background-color: darkcyan;
+    font-size: 1.8rem;
+}
+
+button {
+    background-color: rgba(11, 190, 196, 0.767);
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+header {
+    margin-top: 3.5rem;
+}
+
+#header-img {
+    
+}
+
+header .title {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -15%);
+    font-size: 3.5rem;
+    margin-left: 8rem;
+    margin-top: 0.5rem;
+}
